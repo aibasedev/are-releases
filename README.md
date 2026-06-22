@@ -1,4 +1,4 @@
-# Auto-Bank-Recss
+# Auto-Bank-Recs
 
 **Automated Bank Reconciliations · SQUAN Construction**
 
