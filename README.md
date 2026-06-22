@@ -1,8 +1,8 @@
-# A.R.E. — Automated Reconciliation Execution
+# Auto-Bank-Rec
 
 **Automated Bank Reconciliations · SQUAN Construction**
 
-A.R.E. is an offline Windows desktop app that reconciles a bank statement
+Auto-Bank-Rec is an offline Windows desktop app that reconciles a bank statement
 against a Sage register and produces a Sage-ready reconciliation upload. It runs
 entirely on your machine — no installation, no internet connection, no data ever
 leaves your computer.
@@ -13,11 +13,11 @@ leaves your computer.
 
 **➡ [Download the latest release](../../releases/latest)**
 
-Grab `ARE-Reconciliation-1.0.0.exe` from the latest release's **Assets** list.
+Grab `Auto-Bank-Rec-1.0.0.exe` from the latest release's **Assets** list.
 
 ## Run it
 
-1. Double-click `ARE-Reconciliation-1.0.0.exe`. There is nothing to install — it
+1. Double-click `Auto-Bank-Rec-1.0.0.exe`. There is nothing to install — it
    is a single self-contained portable app.
 2. A short loading screen appears, then the app window opens.
 3. Upload your **bank** CSV and your **Sage register** CSV.
@@ -38,8 +38,9 @@ Grab `ARE-Reconciliation-1.0.0.exe` from the latest release's **Assets** list.
 
 ## Privacy
 
-A.R.E. is fully offline. It contains no AI, no network calls, and no API keys.
-Your bank and Sage data are processed locally and are never uploaded anywhere.
+Auto-Bank-Rec is fully offline. It contains no AI, no network calls, and no API
+keys. Your bank and Sage data are processed locally and are never uploaded
+anywhere.
 
 ---
 
