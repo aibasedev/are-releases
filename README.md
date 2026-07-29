@@ -13,11 +13,11 @@ leaves your computer.
 
 **➡ [Download the latest release](../../releases/latest)**
 
-Grab `Auto-Bank-Recs-1.5.1.exe` from the latest release's **Assets** list.
+Grab `Auto-Bank-Recs-1.5.5.exe` from the latest release's **Assets** list.
 
 ## Run it
 
-1. Double-click `Auto-Bank-Recs-1.5.1.exe`. There is nothing to install — it
+1. Double-click `Auto-Bank-Recs-1.5.5.exe`. There is nothing to install — it
    is a single self-contained portable app.
 2. A short loading screen appears, then the app window opens.
 3. Upload your **bank** CSV and your **Sage register** CSV.
@@ -35,6 +35,22 @@ Grab `Auto-Bank-Recs-1.5.1.exe` from the latest release's **Assets** list.
 - Flags ambiguous items for manual review instead of guessing.
 - Separates matched, unmatched (bank), outstanding (Sage), and ignored items.
 - Exports a Sage-ready reconciliation upload.
+
+## New in 1.5.5
+
+- **Unified Activity workspace** — Bank and Ledger are combined into a
+  source-of-truth view with activity totals, match/missing statistics,
+  type-specific tabs, and Sage divergence highlighting.
+- **Bank-account picker** — explicitly choose the account being reconciled so
+  the Summary, Sage upload, and Excel workpaper carry the correct account.
+- **Improved bank proof** — entering the opening balance automatically fills
+  the calculated ending balance while preserving editable manual overrides.
+- **Upgraded Excel workpaper** — grouped transaction sheets and highlights,
+  with clearer `Outstanding & Voided` and `Unmatched` sheet names.
+- **True Start a New Rec reset** — clears the selected account, both uploaded
+  CSVs, balances, review decisions, and every reconciliation result.
+- **UI polish** — balanced account-card spacing, clearer tab names including
+  `Voids`, and comma-tolerant Find.
 
 ## New in 1.5.1
 
