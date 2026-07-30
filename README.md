@@ -20,7 +20,7 @@ Grab `Auto-Bank-Recs-1.5.8.exe` from the latest release's **Assets** list.
 1. Double-click `Auto-Bank-Recs-1.5.8.exe`. There is nothing to install — it
    is a single self-contained portable app.
 2. A short loading screen appears, then the app window opens.
-3. Upload your **bank** CSV and your **Sage register** CSV.
+3. Upload your **bank** and **Sage register** files (`.csv` or `.xlsx`).
 4. Review the reconciliation summary and download the Sage upload file.
 
 > **First-launch note (Windows SmartScreen).** Because the app is not code-signed
