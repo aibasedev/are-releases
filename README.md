@@ -13,11 +13,11 @@ leaves your computer.
 
 **➡ [Download the latest release](../../releases/latest)**
 
-Grab `Auto-Bank-Recs-1.5.6.exe` from the latest release's **Assets** list.
+Grab `Auto-Bank-Recs-1.5.7.exe` from the latest release's **Assets** list.
 
 ## Run it
 
-1. Double-click `Auto-Bank-Recs-1.5.6.exe`. There is nothing to install — it
+1. Double-click `Auto-Bank-Recs-1.5.7.exe`. There is nothing to install — it
    is a single self-contained portable app.
 2. A short loading screen appears, then the app window opens.
 3. Upload your **bank** CSV and your **Sage register** CSV.
@@ -35,6 +35,15 @@ Grab `Auto-Bank-Recs-1.5.6.exe` from the latest release's **Assets** list.
 - Flags ambiguous items for manual review instead of guessing.
 - Separates matched, unmatched (bank), outstanding (Sage), and ignored items.
 - Exports a Sage-ready reconciliation upload.
+
+## New in 1.5.7
+
+- **At-a-glance transaction summaries** — the Matched, Unmatched, and Outstanding
+  tabs now show Rows, Total Debit, Total Credit, Net Total, Missing count, and
+  Missing amount above their detail tables.
+- **Simplified batch and split proposals** — removed the inactive Accept and
+  Reject controls and their unused saved state, leaving a clearer read-only
+  proposal view.
 
 ## New in 1.5.6
 
