@@ -13,11 +13,11 @@ leaves your computer.
 
 **➡ [Download the latest release](../../releases/latest)**
 
-Grab `Auto-Bank-Recs-1.5.7.exe` from the latest release's **Assets** list.
+Grab `Auto-Bank-Recs-1.5.8.exe` from the latest release's **Assets** list.
 
 ## Run it
 
-1. Double-click `Auto-Bank-Recs-1.5.7.exe`. There is nothing to install — it
+1. Double-click `Auto-Bank-Recs-1.5.8.exe`. There is nothing to install — it
    is a single self-contained portable app.
 2. A short loading screen appears, then the app window opens.
 3. Upload your **bank** CSV and your **Sage register** CSV.
@@ -35,6 +35,15 @@ Grab `Auto-Bank-Recs-1.5.7.exe` from the latest release's **Assets** list.
 - Flags ambiguous items for manual review instead of guessing.
 - Separates matched, unmatched (bank), outstanding (Sage), and ignored items.
 - Exports a Sage-ready reconciliation upload.
+
+## New in 1.5.8
+
+- **FREEFUND account support** — FREEFUND is now available in the bank-account
+  selector and is written into the Sage reconciliation upload and workpaper when
+  selected.
+- **CSV or Excel inputs** — both the bank activity and Sage register uploaders
+  accept `.csv` and `.xlsx` files, including mixed combinations. Excel dates and
+  text identifiers such as leading-zero check numbers are preserved.
 
 ## New in 1.5.7
 
