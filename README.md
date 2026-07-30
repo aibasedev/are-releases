@@ -20,7 +20,7 @@ Grab `Auto-Bank-Recs-1.5.8.exe` from the latest release's **Assets** list.
 1. Double-click `Auto-Bank-Recs-1.5.8.exe`. There is nothing to install — it
    is a single self-contained portable app.
 2. A short loading screen appears, then the app window opens.
-3. Upload your **bank** and **Sage register** files (`.csv` or `.xlsx`).
+3. Upload your **bank** and **Sage register** files (`.csv` or Excel).
 4. Review the reconciliation summary and download the Sage upload file.
 
 > **First-launch note (Windows SmartScreen).** Because the app is not code-signed
@@ -42,8 +42,10 @@ Grab `Auto-Bank-Recs-1.5.8.exe` from the latest release's **Assets** list.
   selector and is written into the Sage reconciliation upload and workpaper when
   selected.
 - **CSV or Excel inputs** — both the bank activity and Sage register uploaders
-  accept `.csv` and `.xlsx` files, including mixed combinations. Excel dates and
-  text identifiers such as leading-zero check numbers are preserved.
+  accept `.csv`, `.xlsx`, `.xls`, and `.xlsb` files in mixed combinations.
+  Content-based detection also handles binary Excel exports saved with a
+  misleading `.xls` extension. Excel dates and text identifiers such as
+  leading-zero check numbers are preserved.
 
 ## New in 1.5.7
 
